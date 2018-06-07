@@ -1,0 +1,44 @@
+header{
+
+    background-color: #eee;
+    text-align: center;
+	font-family: 'Lobster', cursive;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+.movie-list{
+
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: auto;
+	font-family: 'Cabin', serif;
+}
+
+
+.movie-details{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 400px;
+	margin: auto;
+	line-height: 1.7;
+	font-family: 'Cabin', serif;
+}
+
+.movie-details-specs{
+
+	font-weight: bold;
+}
+
+.movie-card-details{
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
