@@ -66,7 +66,7 @@ function saveDataToLocalStorage(data)
   }
 
   fetchAndUpdateMovies(searchTerm, page) {
-    fetch(`http://www.omdbapi.com/?s=${searchTerm}&page=${page}&apikey=80a5ae32`)
+    fetch(`https://www.omdbapi.com/?s=${searchTerm}&page=${page}&apikey=80a5ae32`)
       .then((data) => {
         return data.json()
       }).then((json) => {
