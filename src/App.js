@@ -102,7 +102,7 @@ function saveDataToLocalStorage(data)
 
 
   fetchDisplayDetails(imdbID) {
-    fetch(`http://www.omdbapi.com/?i=${imdbID}&plot=full&apikey=80a5ae32`)
+    fetch(`https://www.omdbapi.com/?i=${imdbID}&plot=full&apikey=80a5ae32`)
       .then((data) => {
         return data.json()
       }).then((json) => {
